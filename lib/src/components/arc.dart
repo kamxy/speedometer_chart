@@ -33,9 +33,7 @@ class Arc extends StatelessWidget {
           ),
         )
         : SvgPicture.asset(
-          hasTickSpace
-              ? "assets/arc_tick_3_custom.svg"
-              : "assets/arc_tick_1.svg",
+          hasTickSpace ? "assets/arc_tick_2.svg" : "assets/arc_tick_1.svg",
           package: "speedometer_chart",
           width: dimension,
           height: dimension / 2,
