@@ -27,4 +27,5 @@ flutter:
     - assets/arc_tick_2.svg
     - assets/arc_tick_2_custom.svg
     - assets/arc_tick_3_custom.svg
+    - assets/arc_tick_4_custom.svg
     - assets/pointer.svg
