@@ -1,0 +1,28 @@
+name: speedometer_chart
+description: A library of velocity gauge charts for Flutter, fully customizable.
+version: 1.0.8
+homepage: https://gitlab.com/BrainBrax/speedometer_chart
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  assets:
+    - assets/arc.svg
+    - assets/arc_tick_1.svg
+    - assets/arc_tick_2.svg
+    - assets/pointer.svg
