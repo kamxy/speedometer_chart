@@ -4,7 +4,7 @@ version: 1.0.8
 homepage: https://gitlab.com/BrainBrax/speedometer_chart
 
 environment:
-  sdk: '>=3.0.2 <4.0.0'
+  sdk: ">=3.0.2 <4.0.0"
   flutter: ">=3.3.0"
 
 dependencies:
@@ -25,4 +25,5 @@ flutter:
     - assets/arc.svg
     - assets/arc_tick_1.svg
     - assets/arc_tick_2.svg
+    - assets/arc_tick_2_custom.svg
     - assets/pointer.svg
