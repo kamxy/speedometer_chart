@@ -23,15 +23,15 @@ class Pointer extends StatelessWidget {
   Widget build(BuildContext context) {
     return hasIconPointer
         ? SvgPicture.asset(
-            "assets/pointer.svg",
-            package: "speedometer_chart",
-            height: dimension,
-            colorFilter: ColorFilter.mode(pointerColor, BlendMode.srcIn),
-          )
+          "assets/pointer.svg",
+          package: "speedometer_chart",
+          height: dimension,
+          colorFilter: ColorFilter.mode(pointerColor, BlendMode.srcIn),
+        )
         : CustomPaint(
-            size: Size(dimension, dimension * 2),
-            painter: DrawTriangle(pointerColor),
-          );
+          size: Size(dimension, dimension * 2),
+          painter: DrawTriangle(pointerColor),
+        );
   }
 }
 
